@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="textoACopiar" value="Texto a copiar">
+        <button id="botonCopiar">Copiar</button>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var botonCopiar = document.getElementById("botonCopiar");
+            var textoACopiar = document.getElementById("textoACopiar");
+        
+            botonCopiar.addEventListener("click", function() {
+                // Seleccionar el texto del campo de entrada
+                textoACopiar.select();
+                textoACopiar.setSelectionRange(0, 99999); // Para dispositivos móviles
+        
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+        
+                // Cambiar el texto del botón después de copiar
+                botonCopiar.innerHTML = "¡Copiado!";
+        
+                // Restaurar el texto del botón después de 2 segundos
+                setTimeout(function() {
+                    botonCopiar.innerHTML = "Copiar";
+                }, 2000);
+            });
+        });
+        
+    </script>
+</body>
+</html>

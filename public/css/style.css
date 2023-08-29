@@ -1,0 +1,417 @@
+:root{
+	--color-azul: #00b5e2;
+}
+
+#particles-js{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.nav-black{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid var(--color-azul);
+    backdrop-filter: blur( 2px );
+    z-index: 1000;
+}
+
+.nav-black .btn-dark{
+    background: none;
+    border: none;
+    outline: none;
+    &:hover{
+        background: rgba(0, 0, 0, .7);
+        border: 1px solid var(--color-azul);
+        border-radius: 5px;
+        color: var(--color-azul);
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .7);
+        border: 1px solid var(--color-azul);
+        border-radius: 5px;
+        color: var(--color-azul);
+        outline: none;
+    }
+}
+
+.fondo {
+    background: url("../img/bg01.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo2 {
+    background: url("../img/bg2.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo3 {
+    background: url("../img/bg3.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo4 {
+    background: url("../img/bg4.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo5 {
+    background: url("../img/bg5.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo6 {
+    background: url("../img/bg6.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo7 {
+    background: url("../img/bg7.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fondo8 {
+    background: url("../img/bg8.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.text-blue{
+    color: var(--color-azul);
+}
+
+.btn-blue{
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    &:hover{
+        background: rgba(0, 0, 0, .7);
+        border: 1px solid var(--color-azul);
+        border-radius: 5px;
+        color: var(--color-azul);
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .7);
+        border: 1px solid var(--color-azul);
+        border-radius: 5px;
+        color: var(--color-azul);
+        outline: none;
+    }
+}
+
+.btn-azul{
+    background: none;
+    border: 1px solid #00b5e2;
+    color: #00b5e2;
+    &:hover{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #0077ff;
+        border-radius: 5px;
+        color: #0077ff;
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #0077ff;
+        border-radius: 5px;
+        color: #0077ff;
+        outline: none;
+    }
+}
+
+.btn-verde{
+    background: none;
+    border: 1px solid #00e231;
+    color: #00e231;
+    &:hover{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #00a753;
+        border-radius: 5px;
+        color: #00a753;
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #00a753;
+        border-radius: 5px;
+        color: #00a753;
+        outline: none;
+    }
+}
+
+.btn-rojo{
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    &:hover{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #9b9b9b;
+        border-radius: 5px;
+        color: #9b9b9b;
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #9b9b9b;
+        border-radius: 5px;
+        color: #9b9b9b;
+        outline: none;
+    }
+}
+
+.btn-blue2{
+    background: none;
+    border: 1px solid #264de4;
+    color: #264de4;
+    &:hover{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #052299;
+        border-radius: 5px;
+        color: #052299;
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #052299;
+        border-radius: 5px;
+        color: #052299;
+        outline: none;
+    }
+}
+
+
+.btn-purple{
+    background: none;
+    border: 1px solid #673ab7;
+    color: #673ab7;
+    &:hover{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #3c0180;
+        border-radius: 5px;
+        color: #3c0180;
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #3c0180;
+        border-radius: 5px;
+        color: #3c0180;
+        outline: none;
+    }
+}
+
+.btn-yellow{
+    background: none;
+    border: 1px solid #f7df1e;
+    color: #f7df1e;
+    &:hover{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #9fa100;
+        border-radius: 5px;
+        color: #9fa100;
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #9fa100;
+        border-radius: 5px;
+        color: #9fa100;
+        outline: none;
+    }
+}
+
+.btn-red{
+    background: none;
+    border: 1px solid #d80000;
+    color: #d80000;
+    &:hover{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #a10000;
+        border-radius: 5px;
+        color: #a10000;
+        outline: none;
+    }
+    &:focus{
+        background: rgba(0, 0, 0, .5);
+        border: 1px solid #a10000;
+        border-radius: 5px;
+        color: #a10000;
+        outline: none;
+    }
+}
+
+
+
+.bg-blackk {
+    background-color: rgb(0, 0, 0,0.6);
+    backdrop-filter: blur( 1px );
+}
+
+.borde-t{
+    border-top: 2px solid var(--color-azul);
+}
+
+.borde-b{
+    border-bottom: 2px solid var(--color-azul);
+}
+
+.fon{
+	background-color: rgb(0, 0, 0, 0.5);
+    height: 100vh;
+    backdrop-filter: blur( 2px );
+}
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 2px solid var(--color-azul);
+    backdrop-filter: blur( 2px );
+}
+
+/* -----------  inicio boton regreso a parte superior */
+
+.go-top-container {
+    position: fixed;
+    bottom: 40px;
+    right: 22px;
+    width: 46px;
+    height: 46px;
+    z-index: -1;
+}
+
+.go-top-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0px;
+    height: 0px;
+    background-color: rgba(105, 105, 105, 0.7);
+    border-radius: 50%;
+    border: 1px solid var(--color-azul);
+    cursor: pointer;
+    transition: .2s;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go-top-button i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .2s;
+    z-index: -1;
+}
+
+.show {
+    z-index: 1201;
+}
+
+.show .go-top-button {
+    animation: popup .3s ease-in-out;
+    width: 46px;
+    height: 46px;
+    z-index: 1201;
+}
+
+.show i {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.form-floating input{
+    background: none;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 2px solid var(--color-azul);
+}
+
+.form-floating input:focus{
+    background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.form-floating input:read-only{
+    background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.form-floating input:disabled {
+	background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+	opacity: 1;
+}
+
+
+.form-floating textarea{
+	min-height: 100px;
+	max-height: 200px;
+	padding: 10px;
+	line-height: 30px;
+    background: none;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 2px solid var(--color-azul);
+}
+
+.form-floating textarea:focus{
+    background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+
+.borde-d{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.borde-d-img{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.border-blue{
+    border: 1px solid var(--color-azul);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.bg-blue{
+    background: var(--color-azul);
+}
